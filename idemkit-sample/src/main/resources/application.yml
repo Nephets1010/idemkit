@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: idemkit-sample
+
+server:
+  port: 8080
+
+idemkit:
+  enabled: true
+  tenant-header: X-Tenant-Id
